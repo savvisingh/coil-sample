@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 val appModule = module {
     single {
         Retrofit.Builder()
-            .baseUrl(getProperty<String>("base_url"))
+            .baseUrl(getProperty("base_url"))
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
