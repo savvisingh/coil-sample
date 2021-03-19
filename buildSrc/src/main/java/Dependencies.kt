@@ -13,6 +13,7 @@ object Coroutines {
 object Versions {
     const val KOTLIN = "1.3.72"
     const val CORE_KTX = "1.3.0"
+    const val androidPlugin = "4.1.0"
     const val JUNIT = "4.12"
     const val JUNIT_EXT = "1.1.1"
     const val ESPRESSO_CORE = "3.2.0"
