@@ -1,0 +1,1 @@
+/Users/sarabjeet.singh/Documents/hackday/Coil-example/buildSrc/build/classes/kotlin/main/Coroutines.class:/Users/sarabjeet.singh/Documents/hackday/Coil-example/buildSrc/build/classes/kotlin/main/LibAndroidx.class:/Users/sarabjeet.singh/Documents/hackday/Coil-example/buildSrc/build/classes/kotlin/main/Versions.class
