@@ -30,7 +30,7 @@ object Versions {
 }
 
 object LibAndroidx {
-    private const val appCompatVer = "1.1.0"
+    private const val appCompatVer = "1.0.0"
     private const val recyclerViewVer = "1.1.0-beta01"
     private const val constraintLayoutVer = "2.0.0-beta4"
     private const val lifeCycleExtensionsVer = "2.2.0"
