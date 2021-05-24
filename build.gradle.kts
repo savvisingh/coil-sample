@@ -1,7 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-//plugins{
+plugins{
 //    id("com.github.ben-manes.versions")
-//}
+    id("com.dipien.releaseshub.gradle.plugin") version "2.0.2"
+}
 buildscript {
     repositories {
         google()
@@ -26,4 +27,12 @@ allprojects {
 
 tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
+}
+
+releasesHub {
+    dependenciesClassNames = listOf("Dependencies.kt")
+    dependenciesBasePath = "buildSrc/src/main/java/"
+    gitHubWriteToken = "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"
+    gitHubRepositoryOwner = ""
+    gitHubRepositoryName = ""
 }

@@ -21,8 +21,8 @@ fun ImageView.loadImage(url: String, totalMark: TimeMark) {
     this.load(url) {
         target { drawable ->
             this@loadImage.setImageDrawable(drawable)
-            Log.d(tag, "Elapsed time: ${mark.elapsedNow()} $url")
-            Log.d(tag, "Total time: ${totalMark.elapsedNow()}, $url")
+//            Log.d(tag, "Elapsed time: ${mark.elapsedNow()} $url")
+//            Log.d(tag, "Total time: ${totalMark.elapsedNow()}, $url")
         }
     }
 }
