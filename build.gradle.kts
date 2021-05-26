@@ -32,7 +32,6 @@ tasks.register("clean", Delete::class) {
 releasesHub {
     dependenciesClassNames = listOf("Dependencies.kt")
     dependenciesBasePath = "buildSrc/src/main/java/"
-    gitHubWriteToken = "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"
     gitHubRepositoryOwner = "savvisingh"
     gitHubRepositoryName = "coil-sample"
 }
