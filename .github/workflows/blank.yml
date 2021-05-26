@@ -23,5 +23,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: UpgradeDependencies
-        run:  ./gradlew upgradeDependencies -PgitHubWriteToken=${{ secrets.GITHUB_TOKEN }} -PgitHubUserEmail=sabbispeak@gmail.com -PgitHubUserName=savvisingh
+        run:  ./gradlew upgradeDependencies -PgitHubWriteToken=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 -PgitHubUserEmail=sabbispeak@gmail.com -PgitHubUserName=savvisingh
       
