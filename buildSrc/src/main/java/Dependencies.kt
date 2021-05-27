@@ -81,6 +81,6 @@ object LibAndroidx {
     const val ANDROIDX_RX_JAVA = "androidx.room:room-rxjava2:$roomVer"
     const val ANDROIDX_ROOM_TESTING = "androidx.room:room-testing:$roomVer"
 
-    const val ANDROIDX_CORE_TESTING = "androidx.arch.core:core-testing:$coreTesting"
+    const val ANDROIDX_CORE_TESTING = "androidx.arch.core:core-testing:2.1.0"
     const val ANDROIDX_ORCHESTRATOR = "androidx.test:orchestrator:$orchestratorVer"
 }
