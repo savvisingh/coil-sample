@@ -41,7 +41,7 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31")
     implementation(LibAndroidx.ANDROIDX_APPCOMPAT)
     implementation(LibAndroidx.ANDROIDX_CORE_KTX)
     implementation("androidx.constraintlayout:constraintlayout:2.0.4")
