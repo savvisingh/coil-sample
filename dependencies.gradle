@@ -6,7 +6,7 @@ ext {
     generalDependencies = [
             appCompat : "androidx.appcompat:appcompat:$appCompatVersion",
             recyclerView : "androidx.recyclerview:recyclerview:$recyclerView",
-            constraint : "androidx.constraintlayout:constraintlayout:2.0.4"
+            constraint : "androidx.constraintlayout:constraintlayout:2.1.1"
     ]
 }
 
