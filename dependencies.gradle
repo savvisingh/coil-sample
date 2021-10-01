@@ -1,5 +1,6 @@
 ext {
     appCompatVersion = '1.0.0'
+    rVersion = "1.0.0"
 
     generalDependencies = [
             appCompat : "androidx.appcompat:appcompat:$appCompatVersion"
@@ -9,4 +10,5 @@ ext {
 
 dependencies {
     implementation(generalDependencies.appCompat)
+    implementation("com.squareup.retrofit2:retrofit:$rVersion")
 }
