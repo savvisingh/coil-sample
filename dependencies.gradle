@@ -5,12 +5,8 @@ ext {
 
     generalDependencies = [
             appCompat : "androidx.appcompat:appcompat:$appCompatVersion",
-            recyclerView : "androidx.recyclerview:recyclerview:$recyclerView"
+            recyclerView : "androidx.recyclerview:recyclerview:$recyclerView",
+            constraint : "androidx.constraintlayout:constraintlayout:2.0.4"
     ]
 }
 
-
-dependencies {
-    implementation(generalDependencies.appCompat)
-    implementation("com.squareup.retrofit2:retrofit:$rVersion")
-}
