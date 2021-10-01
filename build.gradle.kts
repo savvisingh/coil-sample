@@ -35,3 +35,6 @@ releasesHub {
     gitHubRepositoryOwner = "savvisingh"
     gitHubRepositoryName = "coil-sample"
 }
+
+apply from: 'dependencies.gradle'
+
