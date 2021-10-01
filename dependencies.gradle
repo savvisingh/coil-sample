@@ -1,0 +1,7 @@
+ext {
+    supportCompatVersion = '21.0.0'
+
+    generalDependencies = [
+            supportCompat : "com.android.support:support-compat:$supportCompatVersion"
+    ]
+}
