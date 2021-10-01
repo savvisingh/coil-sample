@@ -1,7 +1,7 @@
 ext {
     appCompatVersion = '1.0.0'
     rVersion = "1.0.0"
-    recyclerView = "1.1.0"
+    recyclerView = "1.2.1"
 
     generalDependencies = [
             appCompat : "androidx.appcompat:appcompat:$appCompatVersion",
