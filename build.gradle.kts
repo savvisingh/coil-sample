@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins{
 //    id("com.github.ben-manes.versions")
-    id("com.dipien.releaseshub.gradle.plugin") version "2.0.2"
+    id("com.dipien.releaseshub.gradle.plugin") version "3.1.0"
 }
 buildscript {
     repositories {
