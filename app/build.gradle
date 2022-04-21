@@ -59,7 +59,7 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:$rVersion")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
-    implementation("io.arrow-kt:arrow-core:0.10.5")
+    implementation("io.arrow-kt:arrow-core:1.1.2")
 
     def koinVersion = "2.2.0"
 
