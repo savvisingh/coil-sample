@@ -47,7 +47,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:$appCompatVersion")
     implementation(LibAndroidx.ANDROIDX_CORE_KTX)
     implementation("androidx.constraintlayout:constraintlayout:2.0.4")
-    implementation("com.google.code.gson:gson:2.8.6")
+    implementation("com.google.code.gson:gson:2.10.1")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
     implementation("androidx.cardview:cardview:1.0.0")
 
